@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<script type="application/ld+json">
+			{
+  			"@context": "https://schema.org",
+			"@graph": [
+			    {
+			      "@type": "Organization",
+			      "@id": "https://unece.org/statistics/modernstats",
+			      "name": "UNECE High-Level Group for the Modernisation of Official Statistics (HLG-MOS)",
+			      "url": "https://unece.org/statistics/modernstats",
+			      "parentOrganization": {
+			        "@type": "Organization",
+			        "name": "United Nations Economic Commission for Europe",
+			        "url": "https://unece.org/",
+					"sameAs": "https://en.wikipedia.org/wiki/United_Nations_Economic_Commission_for_Europe"
+			      }
+			    },
+    		{
+	      	"@type": "TechArticle",
+			"@id": "https://unece.org/statistics/gamso-v2.0",
+			"mainEntityOfPage": {
+			  "@type": "WebPage",
+			  "@id": "https://unece.github.io/GAMSO-2.0/"
+			},
+	      	"headline": "Generic Activity Model for Statistical Organisations (GAMSO) v2.0",
+	      	"description": "The official international standard for GAMSO v2.0 describing the activity areas of statistical organisations.",
+	      	"publisher": { "@id": "https://unece.org/statistics/modernstats" },
+	      	"about": {
+	        	"@type": "DefinedTerm",
+	        	"name": "GAMSO",
+	        	"alternateName": "Generic Activity Model for Statistical Organisations",
+	        	"description": "A framework describing and defining the activities that take place within a typical statistical organisation that produces official statistics."
+	      		}
+	    	}
+	  		]
+		}
+		</script>
+
+		<link rel="icon" href="./img/SupportingStandardsGroup_logo.png">
+        <title>GAMSO version 2.0</title>
+        <meta http-equiv='Content-Type' content='text/html;charset=utf-8' />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+
+    <body>
+
+        <script src="javascript.js"></script>
+	<div class="container">
+		<div class="sidebar" id="sidebar">
+      			<h2>List of Content </h2>
+      			<ul id="sidebar-nav"></ul>
+    		</div>
+
+		<div id="resizer"></div>
+
+		<div class="main-content">
+        		<section>
+
+        		<h1>GAMSO version 2.0</h1>
+			<p id="header-paragraph"> Generic Activity Model for Statistical Organisations Version 2.0 </p>
+
+            			<p> <b> About this document </b>: This document provides a description of the GAMSO and how it relates to other key models for statistical modernisation. <br> This work is licensed under <a href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons Attribution 4.0 International License</a>. If you re-use all or part of this work, please attribute it to the United Nations Economic Commission for Europe (UNECE), on behalf of the international statistical community. </p>
+
+                        		<p> Download Word and PDF version: <a href="https://unece.org/statistics/modernstats">UNECE website</a>
+                        		<p> For more information on GAMSO: <a href="https://statswiki.unece.org/display/GAMSO">GAMSO wiki</a>
+					<p> Feedback on GAMSO v2.0: <a href="https://github.com/UNECE/GAMSO-2.0">Github page</a>
+
+			</section>
+			<hr>
+			<br>
+
+        		<section>
+
+            		<h2> I. Introduction</h2>
+            		<p> 1. The Generic Activity Model for Statistical Organisations (GAMSO) describes the activities that take place within an organisation that produces official statistics. The Generic Statistical Business Process Model (GSBPM), which describes statistical production, is nested within the GAMSO as one of its activity areas. However, the GAMSO extends and complements the GSBPM by adding activities that are peripheral to statistical production, yet needed to support it. </p>
+
+            		<p> 2. Like the GSBPM, the GAMSO aims to provide a common vocabulary and framework to support international collaboration activities, particularly in the field of modernisation. While collaboration can focus on modernising a particular aspect of production (as described by the GSBPM), statistical production occurs within a broader context of Business strategies, capabilities and support, for which the GAMSO helps to provide the wider context. </p>
+
+            		<p> 3. Some benefits and expected uses of the GAMSO are listed below. They show that the target audience for this model varies by use, ranging from top management to experts. </p>
+
+            		<p> <u>Benefits</u> </p>
+            		<ul style="list-style-type:disc;">
+            		    <li> Provide a common vocabulary and framework to support international collaboration activities, particularly in the field of modernisation </li>
+            		    <li> Provide a basis for resource planning within a statistical organisation </li>
+            		    <li> Support the development and implementation of enterprise architectures, including components such as capability architectures </li>
+            		    <li> Support risk management systems </li>
+            		</ul>
+
+            		<p> <u>Expected uses</u> </p>
+            		<ul style="list-style-type:disc;">
+            		    <li> As a basis for the measurement of costs of producing official statistics in a way that can be compared between organisations </li>
+            		    <li> As a tool to measure and communicate the value of statistical modernisation activities across an organisation </li>
+            		</ul>
+
+            		<h3> Background </h3>
+            		<p> 4. The GAMSO was first developed in 2015 based on the GSBPM and the Business Activity Model (developed by the Statistical Network<a href="#footnote-1">[1]</a>). Following several drafts and consultations, version 1.1 was released in January 2017. The CES endorsed version 1.1 of the GAMSO in 2017, together with the other members of the "ModernStats" suite of models<a href="#footnote-2">[2]</a> that had been developed under the auspices of the High-Level Group for the Modernisation of Official Statistics (HLG-MOS)<a href="#footnote-3">[3]</a>. Then in 2019, the CES endorsed version 1.2 of GAMSO<a href="#footnote-4">[4]</a>. </p>
+
+            		<h3> Main changes from version 1.2 </h3>
+            		<p> 5. The main changes made to the GAMSO between versions 1.2 and 2.0 include: </p>
+            		<ul style="list-style-type:disc;">
+            		    <li> The "Corporate Support" activity area is renamed "Business Support". </li>
+            		    <li> A new activity "Govern and Strategically Engage" in the "Strategy and Leadership" area to merge two of the old activities into one. </li>
+            		    <li> New activity "Inspire Public Confidence and Support" in the "Strategy and Leadership" area. </li>
+            		    <li> New activity "Manage Security" in the "Business Support" area. </li>
+            		</ul>
+
+            		<p> 6. There were also updates to the terminology used and incorporation or emphasis of certain topics based on the feedback received. </p>
+
+        </section>
+
+        <section>
+            <h2> II. Structure </h2>
+            <p> 7. The GAMSO is composed of four activity areas: Strategy and Leadership, Capability Development, Business Support and Production, as depicted in Figure 1. </p>
+
+            <table style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; font-size:0.95em; margin-bottom:6px;">
+                <tr>
+                    <td colspan="2" style="background-color:#C97878; color:#000; font-weight:bold; text-align:center; padding:14px; border:2px solid #8B4E4E;">Strategy and Leadership</td>
+                </tr>
+                <tr>
+                    <td style="background-color:#9B89B4; color:#000; font-weight:bold; text-align:center; padding:14px; width:50%; border:2px solid #6B5A8E;">Capability Development</td>
+                    <td style="background-color:#C5D08A; color:#000; font-weight:bold; text-align:center; padding:14px; width:50%; border:2px solid #8A9A50;">Business Support</td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="background-color:#A8BFDB; color:#000; font-weight:bold; text-align:center; padding:14px; border:2px solid #6A8FAF;">Production</td>
+                </tr>
+            </table>
+			<p>Figure 1. Activity areas of the GAMSO </p>
+
+            <p> 8. For Strategy and Leadership, Capability Development and Business Support, each activity area is further broken down into activities, as shown in Figure 2, with examples of the activities provided in the text. Figure A in the Annex shows the activity areas, activities and examples. </p>
+
+            <p> 9. For Production, as the GSBPM phases represent the activities in the Production activity area, the GAMSO does not seek to redefine these. The Production activity area of the GAMSO version 2.0 corresponds to the GSBPM version 5.2, where the processes associated with the Production activity area are described in detail. </p>
+
+            <table style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; font-size:0.9em; margin-bottom:6px;">
+                <tr>
+                    <td colspan="14" style="background-color:#C97878; font-weight:bold; text-align:center; padding:10px; border:2px solid #8B4E4E;">Strategy and Leadership</td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="background-color:#EBC5C5; text-align:center; padding:8px; border:1px solid #C97878;">Define Vision</td>
+                    <td colspan="5" style="background-color:#EBC5C5; text-align:center; padding:8px; border:1px solid #C97878;">Govern and Strategically Engage</td>
+                    <td colspan="5" style="background-color:#EBC5C5; text-align:center; padding:8px; border:1px solid #C97878;">Inspire Public Confidence and Support</td>
+                </tr>
+                <tr>
+                    <td colspan="14" style="background-color:#C97878; padding:4px; border:2px solid #8B4E4E;"></td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="background-color:#9B89B4; font-weight:bold; text-align:center; padding:10px; border:2px solid #6B5A8E;">Capability Development</td>
+                    <td colspan="10" style="background-color:#C5D08A; font-weight:bold; text-align:center; padding:10px; border:2px solid #8A9A50;">Business Support</td>
+                </tr>
+                <tr>
+                    <td style="background-color:#C9BDD9; text-align:center; padding:6px; border:1px solid #9B89B4; font-size:0.85em;">Plan Capability Improvements</td>
+                    <td style="background-color:#C9BDD9; text-align:center; padding:6px; border:1px solid #9B89B4; font-size:0.85em;">Develop Capability Improvements</td>
+                    <td style="background-color:#C9BDD9; text-align:center; padding:6px; border:1px solid #9B89B4; font-size:0.85em;">Monitor Capability Improvements</td>
+                    <td style="background-color:#C9BDD9; text-align:center; padding:6px; border:1px solid #9B89B4; font-size:0.85em;">Transfer Support of Capability Improvements</td>
+                    <td style="background-color:#DDE8B0; text-align:center; padding:6px; border:1px solid #C5D08A; font-size:0.85em;">Manage Business Performance, Compliance and Risk</td>
+                    <td style="background-color:#DDE8B0; text-align:center; padding:6px; border:1px solid #C5D08A; font-size:0.85em;">Manage Statistical and Analytical Methodology</td>
+                    <td style="background-color:#DDE8B0; text-align:center; padding:6px; border:1px solid #C5D08A; font-size:0.85em;">Manage Quality</td>
+                    <td style="background-color:#DDE8B0; text-align:center; padding:6px; border:1px solid #C5D08A; font-size:0.85em;">Manage Information and Knowledge</td>
+                    <td style="background-color:#DDE8B0; text-align:center; padding:6px; border:1px solid #C5D08A; font-size:0.85em;">Manage Security</td>
+                    <td style="background-color:#DDE8B0; text-align:center; padding:6px; border:1px solid #C5D08A; font-size:0.85em;">Manage Data Suppliers</td>
+                    <td style="background-color:#DDE8B0; text-align:center; padding:6px; border:1px solid #C5D08A; font-size:0.85em;">Manage Finances</td>
+                    <td style="background-color:#DDE8B0; text-align:center; padding:6px; border:1px solid #C5D08A; font-size:0.85em;">Manage Human Resources</td>
+                    <td style="background-color:#DDE8B0; text-align:center; padding:6px; border:1px solid #C5D08A; font-size:0.85em;">Manage IT</td>
+                    <td style="background-color:#DDE8B0; text-align:center; padding:6px; border:1px solid #C5D08A; font-size:0.85em;">Manage Buildings and Physical Space</td>
+                </tr>
+                <tr>
+                    <td colspan="14" style="background-color:#A8BFDB; font-weight:bold; text-align:center; padding:10px; border:2px solid #6A8FAF;">Production</td>
+                </tr>
+                <tr>
+                    <td colspan="14" style="background-color:#C5D5E8; text-align:center; padding:8px; border:2px solid #6A8FAF;">Generic Statistical Business Process Model</td>
+                </tr>
+            </table>
+			<p>Figure 2. Activity areas and activities of the GAMSO </p>
+
+            <h3> <u>Strategy and Leadership</u> </h3>
+
+            <p> 10. These activities are the high-level strategic activities that enable statistical organisations to deliver the products and services needed by users, such as governments and communities, nationally and internationally. </p>
+
+            <p> 11. The activities influence, shape and drive future directions and investments through the development and consideration of high-level strategies to develop organisational capabilities and the statistical product and service portfolio. </p>
+
+            <table style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; font-size:0.95em; margin-bottom:6px;">
+                <tr>
+                    <td colspan="3" style="background-color:#C97878; font-weight:bold; text-align:center; padding:12px; border:2px solid #8B4E4E;">Strategy and Leadership</td>
+                </tr>
+                <tr>
+                    <td style="background-color:#EBC5C5; text-align:center; padding:10px; border:1px solid #C97878; width:33%;">Define Vision</td>
+                    <td style="background-color:#EBC5C5; text-align:center; padding:10px; border:1px solid #C97878; width:34%;">Govern and Strategically Engage</td>
+                    <td style="background-color:#EBC5C5; text-align:center; padding:10px; border:1px solid #C97878; width:33%;">Inspire Public Confidence and Support</td>
+                </tr>
+            </table>
+			<p>Figure 3. Strategy and Leadership activity area of the GAMSO </p>
+
+            <p> 12. The Strategy and Leadership activity area is broken down into 3 activities. These activities are: </p>
+            <ul style="list-style-type:disc;">
+                <li> Define Vision </li>
+                <li> Govern and Strategically Engage </li>
+                <li> Inspire Public Confidence and Support </li>
+            </ul>
+
+            <h4> Define Vision </h4>
+
+            <p> 13. These activities ensure that statistical organisations understand the environment in which they operate and the emerging issues they are confronted with, so that it is clear where they can provide independent, evidence-based information, as well as statistical standards and infrastructure, for use by governments and the broader community. </p>
+
+            <p> 14. Based on this, statistical organisations determine their high-level goals and directions, including the values which will guide them, so they set their statistical programmes accordingly. This also includes communicating the mission, values, ethics and expectations, to lead and inspire staff. </p>
+
+            <p> 15. These activities include: </p>
+            <ul style="list-style-type:disc;">
+                <li> Understand national and international agenda, context and priorities </li>
+                <li> Determine vision, mission and strategic goals </li>
+                <li> Determine organisational value proposition </li>
+                <li> Determine and communicate values, ethics and expectations </li>
+            </ul>
+
+            <h4> Govern and Strategically Engage </h4>
+
+            <p> 16. These activities cover the development of strategies and strategic partnerships to achieve the goals and directions set under Define Vision. Such goals could either be achieved: </p>
+            <ul style="list-style-type:disc;">
+                <li> Through governance within the statistical organisation itself (or, if applicable, within the wider data ecosystem where the statistical organisation has a governance role); or </li>
+                <li> By strategically engaging with stakeholders to influence their actions or cooperating to jointly achieve specific outcomes (where such stakeholders are not under the control of the statistical organisation). </li>
+            </ul>
+
+            <p> 17. The above can include activities related to data stewardship. Governance activities may include: </p>
+            <ul style="list-style-type:disc;">
+                <li> Develop strategies<a href="#footnote-5">[5]</a> for achieving goals </li>
+                <li> Prioritise capability portfolio </li>
+                <li> Prioritise statistical product and service portfolio </li>
+                <li> Define and manage statistical programme </li>
+                <li> Allocate project and programme portfolio budgets </li>
+                <li> Define general policies </li>
+                <li> Contribute to legislative frameworks for production of official statistics </li>
+                <li> Establish responsibilities, requirements and labelling for statistics produced </li>
+                <li> Publish policies, guidelines and normative documents </li>
+            </ul>
+
+            <p> 18. Within the statistical organisation itself, such activities include identification and prioritisation of the statistical work programme, prioritisation of the capital investment programme, and the allocation of resources (capital, labour, etc.) to implement the agreed programmes defined in the statistical product and service and capability portfolios. </p>
+
+            <p> 19. Where the goals of the statistical organisation are to be achieved by strategic engagement of other stakeholders involved with the national statistical system or wider data ecosystem, these activities cover collaboration, cooperation and coordination<a href="#footnote-6">[6]</a>. Collaboration with peers from other countries is also possible. They could for example include development of common approaches or activities undertaken to jointly develop or implement an interoperability strategy or put in place structures for data governance. These can include: </p>
+            <ul style="list-style-type:disc;">
+                <li> Build and maintain strategic relations, nationally and internationally </li>
+                <li> Advance inter-agency and international collaborations </li>
+                <li> Secure support for statistical product and service and capability portfolio </li>
+                <li> Coordinate the national statistical system </li>
+            </ul>
+
+            <p> 20. Under Govern and Strategically Engage the need for capability improvements is identified and requested by prioritising the capability portfolio. Under Capability Development the requested capability improvements are planned in more detail, developed (possibly jointly with other organisations), monitored and after their full integration into Production their support is transferred to Business Support. </p>
+
+            <h4> Inspire Public Confidence and Support </h4>
+
+            <p> 21. Activities under Inspire Public Confidence and Support cover the strategic communication and interaction with the public to help them understand the importance of providing data for statistical purposes, how they may benefit from using statistics, and how the use of statistics by others informs decisions that shape the lives of everyone, as well as the consequences of not having statistics. Ideally, such outreach should aim to develop a culture of interest in statistics, making people curious to know more, as well as a notion that supplying their data for the production of statistics is a civic duty. </p>
+
+            <p> 22. Its activities also encompass demonstrating the values of the organisation that were established under Define Vision, to uphold public trust and confidence in official statistics. These could, for example, include addressing potential public concerns about privacy or challenging the incorrect use of statistics in public discourse. </p>
+
+            <p> 23. Activities may include: </p>
+            <ul style="list-style-type:disc;">
+                <li> Strategic communications and marketing activities (e.g. public information adverts) </li>
+                <li> Managing relations with established media (e.g. to explain statistical issues to journalists) </li>
+                <li> Social media outreach (e.g. highlighting key findings via explainer videos) </li>
+                <li> Educational activities (e.g. partnering with schools to explain the role of official statistics) </li>
+                <li> Manage consultations with the public </li>
+            </ul>
+
+            <h3> <u>Capability Development</u> </h3>
+
+            <p> 24. This activity area includes research, development and innovation activities: i.e. the development of capabilities that enable the organisation to undertake new activities, or to improve the efficiency of existing ones. These activities may be undertaken within an organisation, or jointly with other organisations, and may lead to the development of shared capabilities, or shared facilities (shared platforms, shared privacy-enhancing technologies for data linking, shared research data centres, etc.). When a new capability or a capability improvement is fully integrated in Production, its support is transferred to one or more activities of Business Support. </p>
+
+            <table style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; font-size:0.95em; margin-bottom:6px;">
+                <tr>
+                    <td colspan="4" style="background-color:#9B89B4; font-weight:bold; text-align:center; padding:12px; border:2px solid #6B5A8E;">Capability Development</td>
+                </tr>
+                <tr>
+                    <td style="background-color:#C9BDD9; text-align:center; padding:10px; border:1px solid #9B89B4; width:25%;">Plan Capability Improvements</td>
+                    <td style="background-color:#C9BDD9; text-align:center; padding:10px; border:1px solid #9B89B4; width:25%;">Develop Capability Improvements</td>
+                    <td style="background-color:#C9BDD9; text-align:center; padding:10px; border:1px solid #9B89B4; width:25%;">Monitor Capability Improvements</td>
+                    <td style="background-color:#C9BDD9; text-align:center; padding:10px; border:1px solid #9B89B4; width:25%;">Transfer Support of Capability Improvements</td>
+                </tr>
+            </table>
+			<p>Figure 4. Capability Development activity area of the GAMSO </p>
+
+            <p> 25. This activity area is broken down into 4 activities. The activities are: </p>
+            <ul style="list-style-type:disc;">
+                <li> Plan Capability Improvements </li>
+                <li> Develop Capability Improvements </li>
+                <li> Monitor Capability Improvements </li>
+                <li> Transfer Support of Capability Improvements </li>
+            </ul>
+
+            <h4> Plan Capability Improvements </h4>
+
+            <p> 26. These activities aim at planning the best way forward to develop a new capability or improve an organisation's capabilities. They require a thorough view of change requirements, the prioritisation of options through an efficient, iterative approval process until a work programme for capability improvements is finalised. </p>
+
+            <p> 27. These activities further coordinate the planning and resourcing of capability improvement projects (both large and small), to ensure key improvement work is integrated across the organisation, with interdependencies understood and the resources optimised across the work programme. </p>
+
+            <p> 28. These activities also monitor the ongoing progress of the work programme and report to the relevant governance fora to ensure all required change requests occur in an efficient and effective manner. </p>
+
+            <p> 29. The activities include: </p>
+            <ul style="list-style-type:disc;">
+                <li> Identify disruptions and capability improvements </li>
+                <li> Propose capability improvement projects </li>
+                <li> Manage capability improvement programmes </li>
+            </ul>
+
+            <h4> Develop Capability Improvements </h4>
+
+            <p> 30. These activities develop approved improvement projects from the requirements stage through to their completion. The developers will undertake background research, define the detailed requirements, coordinate the design and building, and finalise all aspects of the capabilities being developed, including their deployment for operational use. </p>
+
+            <p> 31. The activities mainly concern the development of capability improvements for multiple statistical business processes, including cases where capability improvements are developed through partnering with other organisations or through implementing shared infrastructure. Capability improvements in the context of a single statistical business process are included in the Production activity area. </p>
+
+            <p> 32. The activities include: </p>
+            <ul style="list-style-type:disc;">
+                <li> Undertake background research </li>
+                <li> Define detailed capability requirements </li>
+                <li> Design capability solution </li>
+                <li> Build/procure and deploy capability solution </li>
+            </ul>
+
+            <h4> Monitor Capability Improvements </h4>
+
+            <p> 33. These activities aim at monitoring the organisation's capabilities, ensuring the organisation reaps maximum benefits from investments. They involve maintaining capabilities, evaluating them or suggesting where improvements are required. Staff members undertaking these activities effectively become the custodians/reference persons for the capabilities, taking responsibility for their fitness for purpose. These include: </p>
+            <ul style="list-style-type:disc;">
+                <li> Maintain capability improvements </li>
+                <li> Promote capability improvements </li>
+                <li> Evaluate capability improvements </li>
+            </ul>
+
+            <h4> Transfer Support of Capability Improvements </h4>
+
+            <p> 34. These activities provide the technical hands-on assistance required across the organisation to ensure that the capability improvements are actually used in support of the statistical work programme. These activities also guide the successful operation of individual reusable business processes and transfer of shared infrastructures. When a capability improvement is fully integrated in Production, its support is transferred to one or more activities of Business Support. These include: </p>
+            <ul style="list-style-type:disc;">
+                <li> Transfer design </li>
+                <li> Transfer operations </li>
+                <li> Transfer user support </li>
+            </ul>
+
+            <h3> <u>Business Support</u> </h3>
+
+            <p> 35. These activities cover the cross-cutting activities required by the organisation to deliver its work programme efficiently and effectively. When a capability improvement is fully integrated in Production, its support is transferred to one or more activities of Business Support. </p>
+
+            <table style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; font-size:0.9em; margin-bottom:6px;">
+                <tr>
+                    <td colspan="10" style="background-color:#C5D08A; font-weight:bold; text-align:center; padding:12px; border:2px solid #8A9A50;">Business Support</td>
+                </tr>
+                <tr>
+                    <td style="background-color:#DDE8B0; text-align:center; padding:8px; border:1px solid #C5D08A; font-size:0.85em;">Manage Business Performance, Compliance and Risk</td>
+                    <td style="background-color:#DDE8B0; text-align:center; padding:8px; border:1px solid #C5D08A; font-size:0.85em;">Manage Statistical and Analytical Methodology</td>
+                    <td style="background-color:#DDE8B0; text-align:center; padding:8px; border:1px solid #C5D08A; font-size:0.85em;">Manage Quality</td>
+                    <td style="background-color:#DDE8B0; text-align:center; padding:8px; border:1px solid #C5D08A; font-size:0.85em;">Manage Information and Knowledge</td>
+                    <td style="background-color:#DDE8B0; text-align:center; padding:8px; border:1px solid #C5D08A; font-size:0.85em;">Manage Security</td>
+                    <td style="background-color:#DDE8B0; text-align:center; padding:8px; border:1px solid #C5D08A; font-size:0.85em;">Manage Data Suppliers</td>
+                    <td style="background-color:#DDE8B0; text-align:center; padding:8px; border:1px solid #C5D08A; font-size:0.85em;">Manage Finances</td>
+                    <td style="background-color:#DDE8B0; text-align:center; padding:8px; border:1px solid #C5D08A; font-size:0.85em;">Manage Human Resources</td>
+                    <td style="background-color:#DDE8B0; text-align:center; padding:8px; border:1px solid #C5D08A; font-size:0.85em;">Manage IT</td>
+                    <td style="background-color:#DDE8B0; text-align:center; padding:8px; border:1px solid #C5D08A; font-size:0.85em;">Manage Buildings and Physical Space</td>
+                </tr>
+            </table>
+			<p>Figure 5. Business Support activity area of the GAMSO </p>
+
+            <p> 36. This activity area is broken down into 10 activities. The activities are: </p>
+            <ul style="list-style-type:disc;">
+                <li> Manage Business Performance, Compliance and Risk </li>
+                <li> Manage Statistical and Analytical Methodology </li>
+                <li> Manage Quality </li>
+                <li> Manage Information and Knowledge </li>
+                <li> Manage Security </li>
+                <li> Manage Data Suppliers </li>
+                <li> Manage Finances </li>
+                <li> Manage Human Resources </li>
+                <li> Manage Information Technology (IT) </li>
+                <li> Manage Buildings and Physical Space </li>
+            </ul>
+
+            <h4> Manage Business Performance, Compliance and Risk </h4>
+
+            <p> 37. These activities manage how the organisation conducts its business, including agreed changes to the business, in order to achieve planned outputs and outcomes, considering the performance of the business, compliance with legislation, and the management of risk. These include: </p>
+            <ul style="list-style-type:disc;">
+                <li> Manage business performance </li>
+                <li> Manage change </li>
+                <li> Manage risk </li>
+                <li> Manage compliance with legislation </li>
+                <li> Provide legal counsel </li>
+            </ul>
+
+            <h4> Manage Statistical and Analytical Methodology </h4>
+
+            <p> 38. These activities manage the statistical and analytical methodology used to design and carry out the statistical production process. These include initiating and ensuring that standard statistical methods and practices for the processes and sub-processes are identified, put in place in the organisation, and reviewed, to continuously improve efficiency of the production process. Examples include, but are not limited to, management of cross-cutting statistical methods for: </p>
+            <ul style="list-style-type:disc;">
+                <li> Frames and samples </li>
+                <li> Optimising data acquisition/collection </li>
+                <li> Editing and imputing </li>
+                <li> Weighting </li>
+                <li> Estimation </li>
+                <li> Time series and seasonal adjustment </li>
+                <li> Disclosure control </li>
+                <li> Data linkage </li>
+            </ul>
+
+            <p> 39. Issues around the use of any machine learning or artificial intelligence algorithms that are used in the production process could be addressed here, such as avoiding algorithmic bias and ensuring that trained algorithms do not leak confidential information. Additionally, international collaboration at the technical level relating to methodologies or agreement on common classifications or standards may take place within this activity. </p>
+
+            <h4> Manage Quality </h4>
+
+            <p> 40. These activities cover developing and administering a quality framework and cross-cutting work with tools to assure quality, i.e. compliance with the quality framework that should cover quality linked to the organisational framework, processes and products. Such tools comprise quality indicators (including balancing quality components), user surveys, self-assessments, quality reviews or audits, certification and labelling of statistics. Quality documentation here refers to the organisational level and covers quality declarations, policies, and relevant guidelines, such as those for handling errors and revisions. </p>
+
+            <p> 41. The activities include: </p>
+            <ul style="list-style-type:disc;">
+                <li> Manage quality framework </li>
+                <li> Manage quality assurance tools </li>
+                <li> Manage quality documentation </li>
+            </ul>
+
+            <p> 42. The GAMSO includes quality management activities at an organisational level. Quality management activities that are more directly related to the statistical production (e.g. setting process quality targets and monitoring compliance, seeking and analysing user feedback) are included in the GSBPM (for further information, see Section V. Descriptions of Overarching Activities of the GSBPM v5.2). </p>
+
+            <h4> Manage Information and Knowledge </h4>
+
+            <p> 43. These activities include the ownership or custody of records, documents, information and other intellectual assets held by the organisation and the governance of information, covering its collection, arrangement, storage, maintenance, retrieval, dissemination<a href="#footnote-7">[7]</a>, archiving and destruction. They also include maintaining the policies, guidelines and standards regarding information management and governance. These include: </p>
+            <ul style="list-style-type:disc;">
+                <li> Manage documents and records, including archiving and destruction </li>
+                <li> Manage knowledge </li>
+                <li> Manage information standards and access rights </li>
+                <li> Manage metadata and data (including semantic layers, classification development, and statistical registers) </li>
+            </ul>
+
+            <p> 44. The GAMSO includes information and knowledge management activities at an organisational level. Metadata management activities that are more directly related to the statistical production are included in the GSBPM (for further information, see Section V. Descriptions of Overarching Activities of the GSBPM v5.2). </p>
+
+            <h4> Manage Security </h4>
+
+            <p> 45. These activities cover assuring the safety of the organisation's assets and people, beyond the scope of managing IT systems. The activities involve reducing risk and mitigating the impact that the organisation experiences, balanced against other objectives such as transparency. Examples include providing cybersecurity training to staff in order to reduce the incidence of successful phishing attempts or ensuring the safety of staff who are travelling. These include: </p>
+            <ul style="list-style-type:disc;">
+                <li> Managing physical security of office and field staff </li>
+                <li> Provision of security information </li>
+                <li> Cyber and data security, including in the contexts of research data centres and receiving/linking data from data suppliers </li>
+                <li> Tackling security breaches </li>
+            </ul>
+
+            <h4> Manage Data Suppliers </h4>
+
+            <p> 46. These activities cover the relationships with data suppliers, which could include public sector and/or private entities that supply data for statistical activities. This includes cross-process burden management, as well as topics such as profiling and management of contact information and thus has particularly close links with statistical business processes that maintain registers. These include: </p>
+            <ul style="list-style-type:disc;">
+                <li> Manage data sharing agreements </li>
+                <li> Manage data transfer </li>
+            </ul>
+
+            <h4> Manage Finances </h4>
+
+            <p> 47. These activities cover the organisation's ongoing use of financial and accounting information to measure, operate and predict the efficiency and effectiveness of its activities, including procurement and contracts, in relation to the organisation's goals and objectives. Supplier refers to commercial providers of goods and services for the statistical organisation. These include: </p>
+            <ul style="list-style-type:disc;">
+                <li> Maintain accounts (including assets and liabilities) </li>
+                <li> Manage procurement and contracts </li>
+                <li> Manage suppliers of equipment, office supplies and services </li>
+            </ul>
+
+            <h4> Manage Human Resources </h4>
+
+            <p> 48. These activities cover employee performance, recruitment, skills development, talent management and succession planning work. These include: </p>
+            <ul style="list-style-type:disc;">
+                <li> Ensure human resources planning </li>
+                <li> Support employee wellness </li>
+                <li> Manage employee performance </li>
+                <li> Manage and develop skills </li>
+                <li> Manage talent </li>
+                <li> Manage recruitment, onboarding and offboarding </li>
+                <li> Ensure succession planning </li>
+            </ul>
+
+            <h4> Manage IT </h4>
+
+            <p> 49. These activities cover the coordination and management of information and technology resources and solutions. They include the management of the physical security of data and shared infrastructures. These include: </p>
+            <ul style="list-style-type:disc;">
+                <li> Manage design and development of software systems and databases </li>
+                <li> Manage IT assets and services </li>
+                <li> Implement security policies in relation to IT </li>
+                <li> Manage technological change </li>
+            </ul>
+
+            <h4> Manage Buildings and Physical Space </h4>
+
+            <p> 50. These activities cover maintenance of the building and allocation of physical space the organisation occupies. These include: </p>
+            <ul style="list-style-type:disc;">
+                <li> Manage environmental, mechanical, and electrical needs </li>
+                <li> Manage arrangement of office space </li>
+                <li> Manage distribution of offices within space </li>
+                <li> Manage home working and hybrid working arrangements </li>
+            </ul>
+
+            <h3> <u>Production</u> </h3>
+
+            <p> 51. The Production activity area covers all steps necessary to design, implement and manage statistical production processes or cycles, including surveys, collections based on data from administrative or other sources and account compilations. They deliver the outputs approved under Strategy and Leadership, utilising the capabilities developed under Capability Development and the resources managed under Business Support. </p>
+
+            <p> 52. The Production activities in the GAMSO are those included in the GSBPM version 5.2. This means that the GAMSO is by construction fully consistent with GSBPM. </p>
+
+        </section>
+
+        <section>
+            <h2> III. Limitations and extensions </h2>
+
+            <p> 53. As the GAMSO is designed to be generic and applicable across international, regional, national and local statistical organisations, it can never be a perfect fit for all cases. Some statistical organisations have additional activities, such as responsibility for administrative registers, or national geospatial standards and infrastructures. Some operate within strongly centralised contexts, whilst others are part of geographically or subject-matter, de-centralised systems, with different degrees of responsibility for coordination. Some organisations outsource certain activities, particularly supporting services, either to related statistical organisations, or to other government agencies. </p>
+
+            <p> 54. The GAMSO cannot cover all possibilities, so extensions might be needed for use within individual organisations. As for the GSBPM, activities which are in the model but not present within an organisation can simply be ignored, whilst additional activities can be added at the appropriate activity level. It is also likely that, in organisation-specific contexts, extra hierarchical levels will be needed. In order to maintain high-level coherence between local extensions and the GAMSO, necessary extensions should be made at the lowest possible level. These local extensions should be kept identified as local so that comparisons across different organisations will still be possible. </p>
+
+        </section>
+
+        <section>
+            <h2> Annex – Activity areas, activities and examples </h2>
+
+            <table style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; font-size:0.85em; margin-bottom:6px;">
+                <!-- Strategy and Leadership -->
+                <tr>
+                    <td colspan="14" style="background-color:#C97878; font-weight:bold; text-align:center; padding:10px; border:2px solid #8B4E4E;">Strategy and Leadership</td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="background-color:#EBC5C5; font-weight:bold; text-align:center; padding:8px; border:1px solid #C97878;">Define Vision</td>
+                    <td colspan="5" style="background-color:#EBC5C5; font-weight:bold; text-align:center; padding:8px; border:1px solid #C97878;">Govern and Strategically Engage</td>
+                    <td colspan="5" style="background-color:#EBC5C5; font-weight:bold; text-align:center; padding:8px; border:1px solid #C97878;">Inspire Public Confidence and Support</td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="background-color:#F5E0E0; padding:8px; vertical-align:top; border:1px solid #C97878;">
+                        <ul style="margin:0; padding-left:16px;">
+                            <li>Understand national and international agenda, context and priorities</li>
+                            <li>Determine vision, mission and strategic goals</li>
+                            <li>Determine organisational value proposition</li>
+                            <li>Determine and communicate values, ethics and expectations</li>
+                        </ul>
+                    </td>
+                    <td colspan="5" style="background-color:#F5E0E0; padding:8px; vertical-align:top; border:1px solid #C97878;">
+                        <ul style="margin:0; padding-left:16px;">
+                            <li>Develop strategies for achieving goals</li>
+                            <li>Prioritise capability portfolio</li>
+                            <li>Prioritise statistical product and service portfolio</li>
+                            <li>Define and manage statistical programme</li>
+                            <li>Allocate project and programme portfolio budgets</li>
+                            <li>Define general policies</li>
+                            <li>Contribute to legislative frameworks for production of official statistics</li>
+                            <li>Establish responsibilities, requirements and labelling for statistics produced</li>
+                            <li>Publish policies, guidelines and normative documents</li>
+                            <li>Build and maintain strategic relations, nationally and internationally</li>
+                            <li>Advance inter-agency and international collaborations</li>
+                            <li>Secure support for statistical product and service and capability portfolio</li>
+                            <li>Coordinate the national statistical system</li>
+                        </ul>
+                    </td>
+                    <td colspan="5" style="background-color:#F5E0E0; padding:8px; vertical-align:top; border:1px solid #C97878;">
+                        <ul style="margin:0; padding-left:16px;">
+                            <li>Strategic communications and marketing activities</li>
+                            <li>Managing relations with established media</li>
+                            <li>Social media outreach</li>
+                            <li>Educational activities</li>
+                            <li>Manage consultations with the public</li>
+                        </ul>
+                    </td>
+                </tr>
+                <!-- Capability Development + Business Support -->
+                <tr>
+                    <td colspan="4" style="background-color:#9B89B4; font-weight:bold; text-align:center; padding:10px; border:2px solid #6B5A8E;">Capability Development</td>
+                    <td colspan="10" style="background-color:#C5D08A; font-weight:bold; text-align:center; padding:10px; border:2px solid #8A9A50;">Business Support</td>
+                </tr>
+                <tr>
+                    <td style="background-color:#C9BDD9; font-weight:bold; text-align:center; padding:6px; border:1px solid #9B89B4;">Plan Capability Improvements</td>
+                    <td style="background-color:#C9BDD9; font-weight:bold; text-align:center; padding:6px; border:1px solid #9B89B4;">Develop Capability Improvements</td>
+                    <td style="background-color:#C9BDD9; font-weight:bold; text-align:center; padding:6px; border:1px solid #9B89B4;">Monitor Capability Improvements</td>
+                    <td style="background-color:#C9BDD9; font-weight:bold; text-align:center; padding:6px; border:1px solid #9B89B4;">Transfer Support of Capability Improvements</td>
+                    <td style="background-color:#DDE8B0; font-weight:bold; text-align:center; padding:6px; border:1px solid #C5D08A; font-size:0.9em;">Manage Business Performance, Compliance and Risk</td>
+                    <td style="background-color:#DDE8B0; font-weight:bold; text-align:center; padding:6px; border:1px solid #C5D08A; font-size:0.9em;">Manage Statistical and Analytical Methodology</td>
+                    <td style="background-color:#DDE8B0; font-weight:bold; text-align:center; padding:6px; border:1px solid #C5D08A;">Manage Quality</td>
+                    <td style="background-color:#DDE8B0; font-weight:bold; text-align:center; padding:6px; border:1px solid #C5D08A; font-size:0.9em;">Manage Information and Knowledge</td>
+                    <td style="background-color:#DDE8B0; font-weight:bold; text-align:center; padding:6px; border:1px solid #C5D08A;">Manage Security</td>
+                    <td style="background-color:#DDE8B0; font-weight:bold; text-align:center; padding:6px; border:1px solid #C5D08A; font-size:0.9em;">Manage Data Suppliers</td>
+                    <td style="background-color:#DDE8B0; font-weight:bold; text-align:center; padding:6px; border:1px solid #C5D08A;">Manage Finances</td>
+                    <td style="background-color:#DDE8B0; font-weight:bold; text-align:center; padding:6px; border:1px solid #C5D08A; font-size:0.9em;">Manage Human Resources</td>
+                    <td style="background-color:#DDE8B0; font-weight:bold; text-align:center; padding:6px; border:1px solid #C5D08A;">Manage IT</td>
+                    <td style="background-color:#DDE8B0; font-weight:bold; text-align:center; padding:6px; border:1px solid #C5D08A; font-size:0.9em;">Manage Buildings and Physical Space</td>
+                </tr>
+                <tr>
+                    <td style="background-color:#E0D8ED; padding:6px; vertical-align:top; border:1px solid #9B89B4;">
+                        <ul style="margin:0; padding-left:14px;">
+                            <li>Identify disruptions and capability improvements</li>
+                            <li>Propose capability improvement projects</li>
+                            <li>Manage capability improvement programmes</li>
+                        </ul>
+                    </td>
+                    <td style="background-color:#E0D8ED; padding:6px; vertical-align:top; border:1px solid #9B89B4;">
+                        <ul style="margin:0; padding-left:14px;">
+                            <li>Undertake background research</li>
+                            <li>Define detailed capability requirements</li>
+                            <li>Design capability solution</li>
+                            <li>Build/procure and deploy capability solution</li>
+                        </ul>
+                    </td>
+                    <td style="background-color:#E0D8ED; padding:6px; vertical-align:top; border:1px solid #9B89B4;">
+                        <ul style="margin:0; padding-left:14px;">
+                            <li>Maintain capability improvements</li>
+                            <li>Promote capability improvements</li>
+                            <li>Evaluate capability improvements</li>
+                        </ul>
+                    </td>
+                    <td style="background-color:#E0D8ED; padding:6px; vertical-align:top; border:1px solid #9B89B4;">
+                        <ul style="margin:0; padding-left:14px;">
+                            <li>Transfer design</li>
+                            <li>Transfer operations</li>
+                            <li>Transfer user support</li>
+                        </ul>
+                    </td>
+                    <td style="background-color:#EEF4D0; padding:6px; vertical-align:top; border:1px solid #C5D08A;">
+                        <ul style="margin:0; padding-left:14px;">
+                            <li>Manage business performance</li>
+                            <li>Manage change</li>
+                            <li>Manage risk</li>
+                            <li>Manage compliance with legislation</li>
+                            <li>Provide legal counsel</li>
+                        </ul>
+                    </td>
+                    <td style="background-color:#EEF4D0; padding:6px; vertical-align:top; border:1px solid #C5D08A;">
+                        <ul style="margin:0; padding-left:14px;">
+                            <li>Frames and samples</li>
+                            <li>Optimising data acquisition/collection</li>
+                            <li>Editing and imputing</li>
+                            <li>Weighting</li>
+                            <li>Estimation</li>
+                            <li>Time series and seasonal adjustment</li>
+                            <li>Disclosure control</li>
+                            <li>Data linkage</li>
+                        </ul>
+                    </td>
+                    <td style="background-color:#EEF4D0; padding:6px; vertical-align:top; border:1px solid #C5D08A;">
+                        <ul style="margin:0; padding-left:14px;">
+                            <li>Manage quality framework</li>
+                            <li>Manage quality assurance tools</li>
+                            <li>Manage quality documentation</li>
+                        </ul>
+                    </td>
+                    <td style="background-color:#EEF4D0; padding:6px; vertical-align:top; border:1px solid #C5D08A;">
+                        <ul style="margin:0; padding-left:14px;">
+                            <li>Manage documents and records, including archiving and destruction</li>
+                            <li>Manage knowledge</li>
+                            <li>Manage information standards and access rights</li>
+                            <li>Manage metadata and data</li>
+                        </ul>
+                    </td>
+                    <td style="background-color:#EEF4D0; padding:6px; vertical-align:top; border:1px solid #C5D08A;">
+                        <ul style="margin:0; padding-left:14px;">
+                            <li>Managing physical security of office and field staff</li>
+                            <li>Provision of security information</li>
+                            <li>Cyber and data security</li>
+                            <li>Tackling security breaches</li>
+                        </ul>
+                    </td>
+                    <td style="background-color:#EEF4D0; padding:6px; vertical-align:top; border:1px solid #C5D08A;">
+                        <ul style="margin:0; padding-left:14px;">
+                            <li>Manage data sharing agreements</li>
+                            <li>Manage data transfer</li>
+                        </ul>
+                    </td>
+                    <td style="background-color:#EEF4D0; padding:6px; vertical-align:top; border:1px solid #C5D08A;">
+                        <ul style="margin:0; padding-left:14px;">
+                            <li>Maintain accounts</li>
+                            <li>Manage procurement and contracts</li>
+                            <li>Manage suppliers of equipment, office supplies and services</li>
+                        </ul>
+                    </td>
+                    <td style="background-color:#EEF4D0; padding:6px; vertical-align:top; border:1px solid #C5D08A;">
+                        <ul style="margin:0; padding-left:14px;">
+                            <li>Ensure human resources planning</li>
+                            <li>Support employee wellness</li>
+                            <li>Manage employee performance</li>
+                            <li>Manage and develop skills</li>
+                            <li>Manage talent</li>
+                            <li>Manage recruitment, onboarding and offboarding</li>
+                            <li>Ensure succession planning</li>
+                        </ul>
+                    </td>
+                    <td style="background-color:#EEF4D0; padding:6px; vertical-align:top; border:1px solid #C5D08A;">
+                        <ul style="margin:0; padding-left:14px;">
+                            <li>Manage design and development of software systems and databases</li>
+                            <li>Manage IT assets and services</li>
+                            <li>Implement security policies in relation to IT</li>
+                            <li>Manage technological change</li>
+                        </ul>
+                    </td>
+                    <td style="background-color:#EEF4D0; padding:6px; vertical-align:top; border:1px solid #C5D08A;">
+                        <ul style="margin:0; padding-left:14px;">
+                            <li>Manage environmental, mechanical, and electrical needs</li>
+                            <li>Manage arrangement of office space</li>
+                            <li>Manage distribution of offices within space</li>
+                            <li>Manage home working and hybrid working arrangements</li>
+                        </ul>
+                    </td>
+                </tr>
+                <!-- Production -->
+                <tr>
+                    <td colspan="14" style="background-color:#A8BFDB; font-weight:bold; text-align:center; padding:10px; border:2px solid #6A8FAF;">Production</td>
+                </tr>
+                <tr>
+                    <td colspan="14" style="background-color:#C5D5E8; text-align:center; padding:8px; border:2px solid #6A8FAF;">Generic Statistical Business Process Model</td>
+                </tr>
+            </table>
+            <p>Figure A. Activity areas, activities and examples of activities in the GAMSO </p>
+        </section>
+
+        <section>
+            <p id="footnote-1">[1] In 2014, the members of the Statistical Network were the national statistical organisations in Australia, Canada, Italy, New Zealand, Norway, Sweden and the United Kingdom. </p>
+            <p id="footnote-2">[2] Other "ModernStats" models then included the Generic Statistical Business Process Model (GSBPM), the Generic Statistical Information Model (GSIM) and the Common Statistical Production Architecture (CSPA). </p>
+            <p id="footnote-3">[3] UNECE Statistics Wikis - HLG-MOS (<a href="https://statswiki.unece.org/display/hlgbas">https://statswiki.unece.org/display/hlgbas</a>) </p>
+            <p id="footnote-4">[4] Together with GSBPM version 5.1. </p>
+            <p id="footnote-5">[5] Could include an organizational strategy on Artificial Intelligence, etc. </p>
+            <p id="footnote-6">[6] For example, among other national, or multinational entities, including bodies responsible for specific functions. </p>
+            <p id="footnote-7">[7] Including to non-human users, like Artificial Intelligence agents. </p>
+        </section>
+
+		</div>
+
+	<div class="footer">
+      <a href="https://unece.org/statistics/modernstats"> <img src="img/modernstats.jpg" alt="Footer Image"> </a>
+    </div>
+
+    </div>
+
+
+
+    </body>
+
+
+</html>
